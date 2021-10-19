@@ -1,6 +1,6 @@
 # Twitter Test Task
 
-Demo:
+Demo: https://twitter-test-task.herokuapp.com/
 
 ## Stack Technologies
 - Next.js
@@ -15,6 +15,7 @@ Demo:
 
 ## Improvements for my app
 - connect to real Twitter API
+- add spinner to search button
 - set up and add linter to the project
 - add testing
 - add responsive layout
