@@ -1,0 +1,100 @@
+.root {
+    width: calc(100vw - 20px);
+    max-width: 448px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    color: #1A202C;
+    padding: 16px;
+    margin-bottom: 8px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.avatar {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background: #E2E8F0;
+}
+
+.nameLine {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 8px;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.screenName {
+    color: #a0aec0;
+    line-height: 1;
+    margin-top: 4px;
+}
+
+.screenName:hover {
+    text-decoration: underline;
+}
+
+.content {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.content a {
+    color: #57BBF5;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    line-height: 1.5;
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px solid #e2e8f0;
+    box-sizing: content-box;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    max-width: 50%;
+}
+
+.svg {
+    flex: 0 0 16px;
+    margin-right: 4px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    max-width: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #57BBF5;
+}
+
+.linkUrl {
+    width: calc(100% - 21px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.linkDes {
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #57BBF5;
+}
